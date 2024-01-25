@@ -1,5 +1,3 @@
-# Название сценария
+# Миграция данных из Yandex Managed Service for MySQL в Yandex Managed Service for Greenplum®
 
-Описание сценария и инструкция по его применению.
-
-Для практических руководств обязательна ссылка на документацию.
+С помощью сервиса [Data Transfer](https://cloud.yandex.ru/ru/docs/data-transfer) вы можете настроить перенос данных из базы [Managed Service for MySQL](https://cloud.yandex.ru/ru/docs/managed-mysql) в базу [Managed Service for Greenplum®](https://cloud.yandex.ru/ru/docs/managed-greenplum). Настройка через Terraform описана в [практическом руководстве](https://cloud.yandex.ru/docs/data-transfer/tutorials/mmy-to-mgp), необходимый для настройки конфигурационный файл [mmy-to-mgp.tf](mmy-to-mgp.tf) расположен в этом репозитории.
